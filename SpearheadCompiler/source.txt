@@ -1,3 +1,5 @@
+// Example code, written in Flint, for Spearhead to compile to a MEM fil that NEANDER can read.
+// This code snipped will use the repeated addition method to multiply A and B and put the result on C.
 //start os loop
 LDA #loop
 B
