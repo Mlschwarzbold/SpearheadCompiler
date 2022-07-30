@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SpearheadCompiler", "SpearheadCompiler\SpearheadCompiler.pyproj", "{18053E91-341E-4F87-B338-C7189F9B0CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18053E91-341E-4F87-B338-C7189F9B0CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18053E91-341E-4F87-B338-C7189F9B0CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64D743E9-5DAB-4E48-8CB6-1AC1B7D1393C}
+	EndGlobalSection
+EndGlobal

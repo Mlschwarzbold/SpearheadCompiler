@@ -1,0 +1,30 @@
+//start os loop
+LDA #loop
+B
+// test if b is 0, then exit loop
+JZ
+&outloop
+// decrease b
+ADD
+K-1
+STA
+B
+// add a to c
+LDA
+C
+ADD
+A
+STA
+C
+//restart loop
+JMP
+&loop
+HLT #outloop
+//end
+//input bytes at 17 and 18
+VAR A 12
+VAR B 12
+//output byte, currenty at position 19
+VAR C 0
+//k-1 = -1 in complement of 2. ADD K-1 equals to removing 1 from acc
+VAR K-1 255
